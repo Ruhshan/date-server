@@ -42,5 +42,3 @@ ENV PATH="/opt/venv/bin:$PATH"
 COPY . /opt/code/
 
 WORKDIR /opt/code
-EXPOSE 8000
-CMD ["python", "manage.py","runserver","0.0.0.0:8000"]
