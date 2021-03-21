@@ -14,3 +14,8 @@ cd date-server
 ```bash
 docker compose up
 ```
+
+## Access the endpoint
+```bash
+curl http://localhost:8000/date/
+```
