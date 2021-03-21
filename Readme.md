@@ -12,7 +12,7 @@ cd date-server
 
 ## Run the server
 ```bash
-docker compose up
+docker compose up --scale web=3
 ```
 
 ## Access the endpoint
